@@ -1,0 +1,43 @@
+#poemvisible {
+}
+
+.modebutton {
+  
+}
+
+#modemenucontainer {
+  background-color: #F00; // testing
+  width: 80px;
+}
+
+#poeminput {
+  width: 100%;
+  height: 80px;
+}
+
+.buttonlist {
+  text-align: center;
+}
+
+#poemhidden {
+  visibility: hidden;
+}
+
+#poemrest {
+  color: #CCC;
+}
+
+#poemtext {
+  display: none;
+}
+
+#poem {
+  font-size: 16pt;
+  line-height: 115%;
+}
+
+#pagecontent {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
