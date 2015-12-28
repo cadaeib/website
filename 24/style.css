@@ -1,0 +1,74 @@
+#instructions {
+	color:#FFF;
+	font-family:"Agency FB", sans-serif;
+	font-size: 24px;
+}
+
+#links A:link {
+	color:#BBB;
+	text-decoration:none;
+}
+#links A:visited {
+	color;#BBB;
+	text-decoration:none;
+}
+
+#links {
+	font-family:sans-serif;
+	font-size:20px;
+}
+
+.score {
+	font-size:30px;
+	color:#BBBBBB;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+
+.timer {
+	font-size:40px;
+	color:#888888;
+	font-family:sans-serif;
+}
+
+.urgenttimer {
+	font-size:40px;
+	color:#AA0000;
+	font-family:sans-serif;
+}
+
+.best {
+	font-size:30px;
+	color:#EE9922;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+
+.global {
+	font-size:16px;
+	color:#888888;
+	font-family:sans-serif;
+}
+
+.globalbest {
+	font-size:16px;
+	color:#882200;
+	font-family:sans-serif;
+}
+
+.gamecanvas {
+	padding-top:50px;
+	padding-left:15px;
+	background-color:#000;
+	background-image:url('bgvectorizedonly.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+#details {
+	padding:60px;
+	text-align:left;
+	font-size:16px;
+	color:#FFF;
+	font-family:sans-serif;
+}
