@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Memorizing poetry</title>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="poetry.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">amyz</a>
+    <ul class="nav">
+      <li><a href="/poetry/">Poemorize</a></li>
+      <li><a href="/24/">24</a></li>
+      <li><a href="/wordpress/">blog</a></li>
+    </ul>
+  </div>
+</div>
+<div id="pagecontent">
+<h1>Poemorize</h1>
+<div id="poeminputwithbutton" class="collapse">
+  <textarea id="poeminput">
+    Copy and paste the poem you want to memorize here...
+  </textarea>
+  <br>
+  <div id="ideas">
+  </div>
+  <br>
+  <div class="buttonlist">
+    <a class="btn btn-primary btn-large" href="#" id="submitpoem">
+      let's do this.
+    </a>
+    <a class="btn btn-info btn-large" href="#" id="ideasbtn">
+      need some ideas?
+    </a>
+  </div>
+</div>
+<br><br>
+<div class="row">
+<div id="poemtext">
+  Descend into the fosse of Tribulation, <br>Take the cold hand of Terror for a guide; <br>Below you in its swirling desolation <br>Hear tortured Horror roaring for a bride: <br>O do not falter at the last request <br>But, as the huge deformed head rears to kill, <br>Answer its craving with a clear I Will; <br>Then wake, a child in the rose-garden, pressed <br>Happy and sobbing to your lover's breast. </div>
+<div id="poem" class="span8">
+  <span id="poemvisible"></span><span id="poemhidden"></span><span id="poemrest"></span>
+</div>
+<br><br><br>
+<div class="buttonlist span4">
+  <button class="btn btn-primary" data-toggle="collapse" data-target="#poeminputwithbutton">load a new poem?</button><br>
+<span class="dropdown" id="modemenucontainer">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" id="dLabel" href="#">Mode</a><!-- TODO turn this into an always-display, unhighlight rest and then highlight self group of buttons -->
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <li><a class="btn modebutton" href="#" id="normal">normal</a></li>
+    <li><a class="btn modebutton" href="#" id="nohints">hide all</a></li>
+    <li><a class="btn modebutton" href="#" id="hideOnSecondPass">hide on second pass</a></li>
+    <li><a class="btn modebutton" href="#" id="hideNextLine">hide next line</a></li>
+  </ul>
+  </span>
+    <a class="btn btn-success" href="#" id="again">again?</a>
+    <a class="btn btn-primary" href="#" id="hintplz">hint please?</a>
+</div>
+</div>
+</body>
+</html>
